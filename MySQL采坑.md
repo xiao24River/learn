@@ -285,7 +285,21 @@ SELECT LEFT('您好，欢迎使用MySQL',7);
 SELECT RIGHT('您好，欢迎使用MySQL',14);
 ```
 
-#### 3.5.3 字符串与数字
+#### 3.5.3 字符串与数字转化
+1. 直接在字符串后面`+0`
+```
+select '1111' + 0; -- 1111
+```
+2. `CAST(value AS type)`
+```
+select cast('33333' as SIGNED INTEGER); -- 33333
+select cast('33333.333' as decimal(10,3)); -- 33333.333
+```
+3. `CONVERT(value, type)`
+```mysql
+SELECT CONVERT('33333',SIGNED); --  33333
+SELECT CONVERT('33333.333',decimal(10,3)); -- 33333.333
+```
 
 
 

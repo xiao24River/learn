@@ -174,4 +174,7 @@ mysqldump [options] --all--database
 2. 在不登录的情况下
 　　mysql -u用户名 -p密码 库名 < 备份文件
 ```
+## 四、其他
+1. `mysql-connector-java`版本
+> https://mvnrepository.com/artifact/mysql/mysql-connector-java?__cf_chl_jschl_tk__=9f83c143d1c71a2b535a1faf478ef825a453c300-1590480235-0-ASC3VOI42FJTvbQldQ8IfT5r37NKbC7PA59Ao9FMD5lwRly2bGFgMJc2PWW3eLtRIqR90dXUw5MbFcF9rXomN_DDEnOuI-hlNe7Rgo4PPJkUrQNV-6b9OZnwxyNa22CWzShGAJTKFxPDcTJdMS28M5lhJfmKr9WLgvxr5DwOo6T2O_h8EvkE1WkAC9thXkg2w15izlekbT1ZqmpSGpE_Evn0_f6y1Mc3W1OZPfJiB2DFUj3WNT7Fyl8NGjVV1iwQ06O6yCb_Lg-uDkE_yGbXeRIQESjGnrfPPgcDW7QYkBI91KuP09iXjxbjkcKogq-foirXGgFIZ4oy8toD3tTG3kieUtO1MDTP_FOHl4rL8Y2SdOQQL9sbEJ4KFNf5NOyvxQ
 
